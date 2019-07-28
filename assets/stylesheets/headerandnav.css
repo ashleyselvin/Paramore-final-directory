@@ -12,6 +12,7 @@ body{
     background: #94DFE1;
     overflow-x: hidden;
     padding: 8px 0;
+    z-index: auto;
   }
 
   .sidenav a {
@@ -43,4 +44,24 @@ body{
 
   .homepage{
      background: linear-gradient(to bottom, #6666ff 0%, #ff99cc 100%);
+  }
+  .discography{
+     background:#ff99cc;
+  }
+  .media{
+     background: linear-gradient(to bottom, #6666ff 0%, #ff99cc 100%);
+  }
+  .merch{
+     background-color: #C9B7DE;
+  }
+  .tourdates{
+     background: linear-gradient(to bottom, #6666ff 0%, #ff99cc 100%);
+  }
+
+  .bg {
+    background-image: url("./assets/images/about/paramoregroup.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
