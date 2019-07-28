@@ -57,12 +57,3 @@ body{
   .tourdates{
      background: linear-gradient(to bottom, #6666ff 0%, #ff99cc 100%);
   }
-
-  .hero-image {
-  background-image: url("./assets/images/heros/paramoreonstage.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
