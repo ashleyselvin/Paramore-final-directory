@@ -52,16 +52,17 @@ body{
      background: linear-gradient(to bottom, #6666ff 0%, #ff99cc 100%);
   }
   .merch{
-     background-color: #C9B7DE;
+     background-color: #FFFFFF;
   }
   .tourdates{
      background: linear-gradient(to bottom, #6666ff 0%, #ff99cc 100%);
   }
 
-  .bg {
-    background-image: url("./assets/images/about/paramoregroup.jpg");
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  .hero-image {
+  background-image: url("./assets/images/heros/paramoreonstage.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
