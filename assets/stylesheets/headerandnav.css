@@ -46,7 +46,7 @@ body{
      background: linear-gradient(to bottom, #6666ff 0%, #ff99cc 100%);
   }
   .discography{
-     background:#ff99cc;
+     background:linear-gradient(to bottom, #6666ff 0%, #ff99cc 100%);
   }
   .media{
      background: linear-gradient(to bottom, #6666ff 0%, #ff99cc 100%);
@@ -55,5 +55,5 @@ body{
      background-color: #FFFFFF;
   }
   .tourdates{
-     background: linear-gradient(to bottom, #6666ff 0%, #ff99cc 100%);
+     background:#FFFFFF;
   }
