@@ -57,3 +57,35 @@ body{
   .tourdates{
      background:#FFFFFF;
   }
+
+  .navbar {
+  width: 100%;
+  background-color: #A592CC;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 30%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #E6A3CF;
+}
+
+.navbar a.active {
+  background-color: #A592CC;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
