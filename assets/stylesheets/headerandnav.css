@@ -43,7 +43,7 @@ body{
   }
 
   .homepage{
-     background: linear-gradient(to bottom, #6666ff 0%, #ff99cc 100%);
+     background: linear-gradient(to bottom, #ff99cc 0%, #ffffff 100%);
   }
   .discography{
      background:linear-gradient(to bottom, #6666ff 0%, #ff99cc 100%);
@@ -88,4 +88,9 @@ body{
     display: block;
     width: 100%;
     text-align: left;
+  }
+
+  .center {
+    display: block;
+    background-size: cover;
   }
