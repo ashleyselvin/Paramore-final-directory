@@ -43,7 +43,7 @@ body{
   }
 
   .homepage{
-     background: linear-gradient(to bottom, #ff99cc 0%, #ffffff 100%);
+     background: powderblue;
   }
   .discography{
      background:linear-gradient(to bottom, #6666ff 0%, #ff99cc 100%);
@@ -55,7 +55,7 @@ body{
      background-color: #FFFFFF;
   }
   .tourdates{
-     background:#FFFFFF;
+     background:linear-gradient(to bottom, #ff99cc 0%, #ffffff 100%);
   }
 
   .navbar {
