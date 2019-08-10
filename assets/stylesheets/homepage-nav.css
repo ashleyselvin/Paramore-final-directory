@@ -17,7 +17,7 @@ padding: 30px;
 color: white;
 text-decoration: none;
 font-size: 17px;
-width: 12%; /* Four links of equal widths */
+width: 15%; /* Four links of equal widths */
 text-align: center;
 }
 
@@ -29,7 +29,7 @@ background-color: #E6A3CF;
 background-color: #A592CC;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 .nav a {
   float: none;
   display: block;
