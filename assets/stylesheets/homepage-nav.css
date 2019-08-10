@@ -1,0 +1,38 @@
+
+body{
+    font-family: "Abel", sans-serif;
+    background-color: pink;
+  }
+
+.nav {
+width: 100%;
+align-items: center;
+background-color: #A592CC;
+overflow: auto;
+}
+
+.nav a {
+float: left;
+padding: 30px;
+color: white;
+text-decoration: none;
+font-size: 17px;
+width: 12%; /* Four links of equal widths */
+text-align: center;
+}
+
+.nav a:hover {
+background-color: #E6A3CF;
+}
+
+.nav a.active {
+background-color: #A592CC;
+}
+
+@media screen and (max-width: 900px) {
+.nav a {
+  float: none;
+  display: block;
+  width: 100%;
+  text-align: left;
+}

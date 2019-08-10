@@ -3,33 +3,22 @@
 <head>
   <title>Paramore Final</title>
   <link href="./assets/stylesheets/headerandnav.css" rel="stylesheet"/>
+<link href="./assets/stylesheets/flip-card.css" rel="stylesheet"/>
 
   <header>
-  <style type="text/css">
-  #element1 {float:left;}
-  #element2 {float:right;}
-  </style>
-
-  <div id="element1">
-    <a href="index.html">
-      <img src="./assets/images/paramorelogo.png"
-      alt="Paramore Logo"style="width:300px;height:100px">
-  </a>
-  </div>
-  <div id="element2">
+    <div class="header">
+      <a href="index.html">
+  <img src="./assets/images/paramorelogo.png" alt="Paramore Logo" style="width:300px;height:100px; position: absolute">
+</a>
   <p align="right", p style="font-size:50px">DISCOGRAPHY</p>
   </div>
-
-  <img src="./assets/images/heros/discography-hero.jpg" alt="paramoregroup" style="width:100%">
-
+  <img src="./assets/images/heros/discography-hero.jpg" alt="paramoregroup" style="width:100%" z-index: -1;>
   </div>
   </header>
-
-     </head>
+ </head>
 
      <body>
-
-       <div class="sidenav">
+<div class="sidenav">
          <a href="aboutus.html">About Us</a>
          <a href="discography.html">Discography</a>
          <a href="tourdates.html">Tour Dates</a>
@@ -39,14 +28,39 @@
 
      <div class="main">
        <body class="discography">
+<center>
+
 
          <div class="flip-card">
-           <div class="flip-card-inner">
-             <div class="flip-card-front">
-               <img src="./assets/images/discography/brandneweyes.jpg" alt="Riot" style="width:300px;height:300px;">
-             </div>
-             <div class="flip-card-back">
-               <h1>Riot</h1>
-             </div>
-           </div>
+       <div class="flip-card-inner">
+         <div class="flip-card-front">
+           <img src="/assets/images//discography/brandneweyes.jpg" alt="Avatar">
          </div>
+         <div class="flip-card-back">
+         <iframe src="https://open.spotify.com/embed/album/27UqZoE1kV6sIV6uQcI28A" width="400" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+         </div>
+       </div>
+     </div>
+     <div class="flip-card">
+   <div class="flip-card-inner">
+     <div class="flip-card-front">
+       <img src="/assets/images//discography/riot.png" alt="Avatar">
+     </div>
+     <div class="flip-card-back">
+     <iframe src="https://open.spotify.com/embed/album/71rziY9eLo1tA2dBMxrwhc" width="400" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+     </div>
+   </div>
+ </div>
+ <div class="flip-card">
+<div class="flip-card-inner">
+ <div class="flip-card-front">
+   <img src="/assets/images//discography/afterlaughter.png" alt="Avatar">
+ </div>
+ <div class="flip-card-back">
+ <iframe src="https://open.spotify.com/embed/album/1c9Sx7XdXuMptGyfCB6hHs" width="400" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+ </div>
+</div>
+</div>
+
+</body>
+</center>
